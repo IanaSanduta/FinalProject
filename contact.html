@@ -2,21 +2,51 @@
 <html lang="en">
 
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apex Eagles Contact UsS</title>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="/css/styles.css" />
+
     <style>
-         .btn {
-    background-color: #612EC7 !important;
+
+    h1 {
+        font-weight: bold;
+      }
+    </style>
+
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <style>
+
+  
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    text-align: center !important;
+  }
+
+  .flex-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 65%; 
+    margin: 0 auto;
 }
+  
     </style>
 
 </head>
 
 <body>
+
     <nav style="background-color: black;" class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand" href="index.html"><img src="/IMG/logo.png" alt="..." class="img-fluid smaller"
@@ -42,70 +72,120 @@
     </nav>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-</br></br></br></br>
 
+</br></br></br></br></br>
+<div class="jumbotron jumbotron-fluid">
     <div class="container">
-        <h2>Talk with a Team Representative</h2></br>
-        <form class="form-horizontal" action="/action_page.php">
+      <h1 class="display-4">Contact Us</h1>
+    </div>
+  </div>
+</br></br>
+<div class="flex-container">
 
-          <div class="form-group">
-            <label class="control-label col-sm-2" for="first">First Name:</label>
-            <div class="col-sm-10">
-              <input type="first" class="form-control" id="first" placeholder="Enter First Name" name="first">
-            </div>
-          </div></br>
-
-          <div class="form-group">
-            <label class="control-label col-sm-2" for="last">Last Name:</label>
-            <div class="col-sm-10">
-              <input type="last" class="form-control" id="last" placeholder="Enter Last Name" name="last">
-            </div>
-          </div></br>
-
-          <div class="form-group">
-            <label class="control-label col-sm-2" for="email">Email:</label>
-            <div class="col-sm-10">
-              <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-            </div>
-          </div></br>
-
-          <div class="form-group">
-            <label class="control-label col-sm-2" for="subject">Subject:</label>
-            <div class="col-sm-10">
-              <input type="subject" class="form-control" id="subject" placeholder="Subject" name="subject">
-            </div>
-          </div></br>
-
-          <div class="form-group">
-            <label class="control-label col-sm-2" for="message">Message:</label>
-            <div class="col-sm-10">
-              <input type="message" class="form-control" id="message" placeholder="Message" name="message">
-            </div>
-          </div></br>
-
-          <div class="form-group">        
-            <div class="col-sm-offset-2 col-sm-10">
-              <div class="checkbox">
-                <label><input type="checkbox" name="remember"> Remember me</label>
-              </div>
-            </div>
-          </div></br>
-
-          <div class="form-group">        
-            <div class="col-sm-offset-2 col-sm-10">
-              <button type="submit" class="btn btn-default">Submit</button>
-            </div>
-          </div></br>
-
-        
-
-        </form>
+<div class="card-group">
+    <div class="card">
+      <img class="card-img-top" src="/IMG/Message.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Chat with Us</h5>
+        <br>
+        <p class="card-text">Chat with a member of our team.</p>
+        <p class="card-text"></p>
+        <br>
+        <a href="#" class="btn btn-primary">Chat</a>
       </div>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <div class="card-footer">
+        <small class="text-muted"></small>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="/IMG/Email.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Email Us</h5>
+        <p class="card-text">Send and Email to a member of our team.</p>
+        <p class="card-text">Email: apexeagles@outlook.com</p>
+        <a href="#" class="btn btn-primary">Email</a>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted"></small>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="/IMG/Call.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Call Us</h5>
+        <p class="card-text">Call and speak with a member of out Team.</p>
+        <p class="card-text">North America Toll-Free: 1-555-555-5555</p>
+        <a href="#" class="btn btn-primary">Call</a>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted"></small>
+      </div>
+    </div>
+  </div>
+
+</div> 
+</br></br></br>
+
+<h1>Come See Us for a Home Game! Location Down Below.</h1>
+
+</br>
+    <div id="map"></div>
+
+    <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
+        ({key: "AIzaSyB5OpoOK_WR6LgnFUMd6iEY5FWpgAQY42s", v: "weekly"});</script>
+    <script>
+      // Initialize and add the map
+let map;
+
+async function initMap() {
+  // The location of our Home Stadium
+  const position = { lat:  39.117339, lng: -94.572616 };
+
+  const { Map } = await google.maps.importLibrary("maps");
+  const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
+
+  map = new Map(document.getElementById("map"), {
+    zoom: 4,
+    center: position,
+    mapId: "DEMO_MAP_ID",
+  });
+
+  // The marker, positioned at Ensign
+  const marker = new AdvancedMarkerElement({
+    map: map,
+    position: position,
+    title: "Home Stadium",
+  });
+}
+
+initMap();
 
 
+    </script>
+
+
+
+
+</br></br>
+
+
+
+<nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
  
+        <a class="page-link" href="#" tabindex="-1">Previous</a>
+      </li>
+      <li class="page-item"><a class="page-link" href="/index.html">1</a></li>
+      <li class="page-item"><a class="page-link" href="/services.html">2</a></li>
+      <li class="page-item"><a class="page-link" href="/portfolio.html">3</a></li>
+      <li class="page-item"><a class="page-link" href="/about.html">4</a></li>
+      <li class="page-item"><a class="page-link" href="/feedback.html">5</a></li>
+      <li class="page-item"><a class="page-link" href="/contact.html">6</a></li>
+      <li class="page-item">
+        <a class="page-link" href="../FinalProject/about.html">Next</a>
+      </li>
+    </ul>
+  </nav>
 
 </body>
 
