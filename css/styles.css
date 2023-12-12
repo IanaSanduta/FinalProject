@@ -30,3 +30,20 @@ body {
     /* Horizontally center the div */
 
 }
+
+.btn {
+    background-color: #612EC7 !important;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+
+#map {
+    height: 50%;
+    width: 50%;
+    margin: 0 auto;
+    /* Horizontally center the div */
+
+}
