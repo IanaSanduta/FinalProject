@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Eagles News</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+</head>
+
+<body>
+    <nav style="background-color: black;" class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="/IMG/logo.png" alt="..." class="img-fluid smaller"
+                    style="width: 250px;" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tickets.html">Tickets</a></li>
+                    <li class="nav-item"><a class="nav-link" href="news.html">News</a></li>
+                    <li class="nav-item"><a class="nav-link" href="schedule.html">Schedule</a></li>
+                    <li class="nav-item"><a class="nav-link" href="feedback.html">Fan Feedback</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Add this script at the end of your HTML file -->
+
+
+    <!-- Bootstrap Modal for the popup -->
+    <div class="modal fade" id="popupModal" tabindex="-1" aria-labelledby="popupModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="popupModalLabel">Checkout Latest News</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Subscribe for more updates!</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Check out</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <!-- Your existing head content... -->
+    </head>
+
+    <body>
+        <!-- Your existing body content... -->
+
+        <!-- News Posts Section -->
+        <section class="container mt-5">
+            <div class="row">
+                <!-- News Post 1 -->
+                <div class="col-md-6">
+                    <div class="card">
+                        <img src="./img/img3.jpg" class="card-img-top" alt="Soccer Image 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Exciting Victory!</h5>
+                            <p class="card-text">The Apex Eagles secured a thrilling victory in their recent soccer
+                                game,
+                                showcasing exceptional teamwork and skill on the field.</p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#newsModal1">
+                                Learn More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- News Post 2 -->
+                <div class="col-md-6">
+                    <div class="card">
+                        <img src="./img/img2.jpg" class="img-fluid rounded-3 " alt="Soccer Image 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Tough Loss</h5>
+                            <p class="card-text">Despite a hard-fought match, the Apex Eagles faced a tough loss,
+                                reflecting on their determination and resilience as they prepare for future challenges.
+                            </p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#newsModal2">
+                                Learn More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mt-4">
+                    <div class="card">
+                        <img src="./img/img9.jpg" class="card-img-top" alt="Soccer Image 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Unforgettable Match Moments</h5>
+                            <p class="card-text">Fans were treated to unforgettable moments in the recent soccer match,
+                                as the Apex Eagles showcased their prowess and entertained the crowd with spectacular
+                                plays.</p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#newsModal3">
+                                Learn More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mt-4">
+                    <div class="card">
+                        <img src="./img/img4.jpg" class="card-img-top" alt="Soccer Image 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Team Spirit Prevails</h5>
+                            <p class="card-text">In a challenging match, the Apex Eagles demonstrated unwavering team
+                                spirit, rallying together to overcome obstacles and leaving a lasting impression on fans
+                                and
+                                opponents alike.</p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#newsModal4">
+                                Learn More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Add more News Posts as needed... -->
+
+            </div>
+        </section>
+
+        <!-- News Modals -->
+        <div class="modal fade" id="newsModal1" tabindex="-1" aria-labelledby="newsModal1Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="newsModal1Label">Exciting Victory Details</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>The Apex Eagles celebrated a well-deserved victory in their latest soccer match. The team's
+                            exceptional coordination and strategic plays led to a spectacular win, leaving fans thrilled
+                            and
+                            eager for more exciting moments in the season.</p>
+                        <p>Goals from star players and a solid defense contributed to the success, showcasing the team's
+                            commitment to excellence on the field. The Apex Eagles are now gearing up for their next
+                            challenges, carrying the momentum from this impressive win.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="newsModal2" tabindex="-1" aria-labelledby="newsModal2Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="newsModal2Label">Tough Loss Analysis</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>The Apex Eagles faced a challenging soccer match resulting in a hard-fought loss. Despite the
+                            setback, the team demonstrated resilience and sportsmanship, learning valuable lessons for
+                            the
+                            upcoming games.</p>
+                        <p>Key moments in the match highlighted the team's determination and effort to overcome
+                            obstacles.
+                            The coaching staff and players are now focusing on areas of improvement to bounce back
+                            stronger
+                            in the next competition.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="newsModal3" tabindex="-1" aria-labelledby="newsModal3Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="newsModal3Label">Unforgettable Match Moments</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Fans were treated to unforgettable moments in the recent soccer match as the Apex Eagles
+                            showcased
+                            their prowess and entertained the crowd with spectacular plays. The thrilling atmosphere
+                            highlighted the team's commitment to providing an exciting and memorable experience for
+                            their
+                            supporters.</p>
+                        <p>Key highlights included outstanding goals, impressive saves, and moments of skill that left
+                            fans on
+                            the edge of their seats. The Apex Eagles continue to strive for excellence as they aim to
+                            create
+                            more memorable match moments throughout the season.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="newsModal4" tabindex="-1" aria-labelledby="newsModal4Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="newsModal4Label">Team Spirit Prevails</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>In a challenging match, the Apex Eagles demonstrated unwavering team spirit, rallying
+                            together to
+                            overcome obstacles and leaving a lasting impression on fans and opponents alike. The
+                            players'
+                            collective determination and cooperation were evident throughout the game, showcasing the
+                            strong
+                            bond within the team.</p>
+                        <p>Despite facing adversity, the Apex Eagles stood united and worked together to secure a
+                            commendable
+                            performance. This display of team spirit serves as an inspiration to fans and reinforces the
+                            values of camaraderie and resilience within the Apex Eagles soccer team.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Your existing footer and scripts... -->
+
+
+        <footer class="footer text-center py-4" style="margin-top: 15px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 mb-3 mb-md-0">
+                        <p class="mb-0">&copy; <span id="copyrightYear"></span> Apex Eagles. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p id="currentTime" class="mb-0"></p>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-12">
+                        <p class="mb-0">Copyright: Apex Eagles 2023 | Creators: Iana Sanduta & Joseph Hoffard | Address:
+                            95
+                            N
+                            300 W, Salt Lake City, UT 84101 | Phone: (801) 524-8100 | Email: studentsuccess@ensign.edu
+                        </p>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-12">
+                        <!-- Bootstrap Pagination -->
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination justify-content-center">
+
+                                <li class="page-item d-md-none">
+                                    <select class="form-select" onchange="window.location.href=this.value">
+                                        <option value="index.html">Home</option>
+                                        <option value="tickets.html">Tickets</option>
+                                        <option value="news.html">News</option>
+                                        <option value="schedule.html">Schedule</option>
+                                        <option value="feedback.html">Fan Feedback</option>
+                                        <option value="contact.html">Contact</option>
+                                    </select>
+                                </li>
+
+                                <li class="page-item d-none d-md-block"><a class="page-link" href="index.html">Home</a>
+                                </li>
+                                <li class="page-item d-none d-md-block"><a class="page-link"
+                                        href="tickets.html">Tickets</a>
+                                </li>
+                                <li class="page-item d-none d-md-block"><a class="page-link" href="news.html">News</a>
+                                </li>
+                                <li class="page-item d-none d-md-block"><a class="page-link"
+                                        href="schedule.html">Schedule</a>
+                                </li>
+                                <li class="page-item d-none d-md-block"><a class="page-link" href="feedback.html">Fan
+                                        Feedback</a></li>
+                                <li class="page-item d-none d-md-block"><a class="page-link"
+                                        href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-12">
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a href="https://www.facebook.com/"><i
+                                        class="fab fa-facebook-square fa-2x"></i></a></li>
+                            <li class="list-inline-item"><a href="https://twitter.com/"><i
+                                        class="fab fa-twitter-square fa-2x"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.youtube.com/"><i
+                                        class="fab fa-instagram-square fa-2x"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                // Select the modal element
+                var popupModal = new bootstrap.Modal(document.getElementById('popupModal'));
+
+                // Show the modal on page load
+                popupModal.show();
+            });
+        </script>
+    </body>
+
+    </html>

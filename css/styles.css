@@ -1,22 +1,49 @@
 body {
     background: linear-gradient(to right, #7AA0ED, #612EC7);
     margin: 0;
-    padding: 0;
+    padding-top: 56px;
     font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    margin-top: auto;
 }
 
 .btn {
-background-color: #612EC7 !important;
+    background-color: #612EC7 !important;
 }
 
 .card-title {
-    font-weight: bold; 
-  }
+    font-weight: bold;
+}
 
 
-       #map {
+#map {
     height: 50%;
-    width: 50%; 
-  margin: 0 auto; /* Horizontally center the div */
-  
-  }
+    width: 50%;
+    margin: 0 auto;
+    /* Horizontally center the div */
+
+}
+
+.btn {
+    background-color: #612EC7 !important;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+
+#map {
+    height: 50%;
+    width: 50%;
+    margin: 0 auto;
+    /* Horizontally center the div */
+
+}
